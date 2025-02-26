@@ -1,0 +1,11 @@
+FileVersion = 1
+
+[Project]
+Name = "inih-beef"
+TargetType = "BeefLib"
+StartupObject = "inih_beef.Program"
+
+[Configs.Debug.Win64]
+BeefLibType = "Static"
+LibPaths = ["$(ProjectDir)/lib/libinih.dll.a"]
+PostBuildCmds = ["CopyToDependents(\"$(ProjectDir)/lib/*.dll\")"]
