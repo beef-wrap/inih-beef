@@ -13,7 +13,7 @@ https://github.com/benhoyt/inih
 
 using System;
 
-namespace inihBeef;
+namespace inih;
 
 public static class inih
 {

@@ -1,6 +1,6 @@
 using System;
 using System.Diagnostics;
-using static inihBeef.inih;
+using static inih.inih;
 
 namespace example;
 
